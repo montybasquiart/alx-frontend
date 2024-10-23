@@ -11,6 +11,6 @@
     color: var(--color-primary);
 }
 
-body {
+body, a {
     color: var(--text-color);
 }
