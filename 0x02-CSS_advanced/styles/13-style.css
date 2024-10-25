@@ -44,7 +44,7 @@ body, a {
     text-decoration: none;
 }
 
-a[href] {
+a {
     /* Styles targeting anchor elements with an href attribute */
 }
 
