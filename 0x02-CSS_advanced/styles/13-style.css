@@ -44,6 +44,10 @@ body, a {
     text-decoration: none;
 }
 
+a[href] {
+    /* Styles targeting anchor elements with an href attribute */
+}
+
 a:visited {
     font-style: italic;
 }
