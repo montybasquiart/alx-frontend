@@ -53,7 +53,8 @@ a {
 }
 
 a[href] {
-    /* Styles targeting anchor elements with an href attribute */
+    color: var(--color-primary);
+    text-decoration: underline;
 }
 
 a:visited {
