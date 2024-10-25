@@ -102,7 +102,10 @@ a:active {
 }
 
 .section-footer {
-    padding: var(--section-footer-align);
+    padding-top: var(--section-footer-padding);
+    padding-bottom: var(--section-footer-padding);
+    padding-left: var(--section-footer-padding);
+    padding-right: var(--section-footer-padding)
 }
 
 .section-title {
@@ -126,5 +129,5 @@ a:active {
 }
 
 .footer {
-    padding:  var(--footer-padding);
+    padding: var(--footer-padding);
 }
