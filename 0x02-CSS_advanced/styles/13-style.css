@@ -52,11 +52,6 @@ a {
     text-decoration: none;
 }
 
-a[href] {
-    color: var(--color-primary);
-    text-decoration: underline;
-}
-
 a:visited {
     font-style: italic;
 }
