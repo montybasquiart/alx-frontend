@@ -30,7 +30,7 @@
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
-    --nav-item-margin: 3rem 0;
+    --nav-item-margin: 0 0 3 * var(--root-element);
     --nav-item-link-hover: var(--color-primary);
 
     /* LINE AREA */
@@ -96,11 +96,15 @@ a:active {
     float: right;
 }
 
-.nav {
+nav {
     margin: 0;
     padding: 0;
-    text-decoration: none;
     text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
 .nav-item {
@@ -114,7 +118,7 @@ a:active {
 
 .nav-link {
     display: block;
-    padding: 50% 100%;
+    padding: calc(0.5 * var(--root-element)) calc(var(--root-elemento));
 }
 
 .nav-link:hover {
